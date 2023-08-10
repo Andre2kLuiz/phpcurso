@@ -16,8 +16,10 @@
 </html>
 
 <?php
-    $Email = $_POST["email"];
-    $senha = $_POST["senha"];
+    if(isset($_POST['logar'])){
+        $Email = $_POST["email"];
+        $senha = $_POST["senha"];
 
-    echo "Óla o Email cadastrado é " .$Email. "e a senha foi" .$senha;
+        echo " <p>Óla o Email cadastrado é </p> " .$Email. " e a senha foi " .$senha;
+    }
 ?>
