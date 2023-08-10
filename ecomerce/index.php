@@ -6,6 +6,6 @@
     <title>Curso</title>
 </head>
 <body>
-    <? echo "Hello Word!"; ?>
+    <?echo "Hello Word!";?>
 </body>
 </html>
