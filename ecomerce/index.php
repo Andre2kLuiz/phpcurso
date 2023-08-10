@@ -6,6 +6,11 @@
     <title>Curso</title>
 </head>
 <body>
-    <?echo "Hello Word!";?>
+    <form action="" method="post">
+        Email: <input type="text" name="email" value="" id=""> <br>
+        Senha: <input type="text" name="email" value=""> <br>
+        <button type="submit" name="logar">Entrar</button>
+        <button>Cadastrar</button>
+    </form>
 </body>
 </html>
